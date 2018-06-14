@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <div id="nav" class="bg-blue">
+  <div id="app" class="container mx-auto">
+    <div id="nav" class="bg-blue-lighter">
       <router-link to="/">Home</router-link> |
       <router-link to="/affiliates">Affiliates</router-link>
     </div>
