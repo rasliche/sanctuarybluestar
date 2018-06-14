@@ -17,4 +17,10 @@ app.get('/status', (req, res) => {
     });
 })
 
+app.post('/register', (req, res) => {
+    res.send({
+        message: `You were registered using the email ${req.body.email}!`
+    });
+})
+
 app.listen(process.env.PORT || 8081);
