@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Affiliates from './views/Affiliates.vue'
 import Dashboard from './views/admin/Dashboard.vue'
+import Register from './views/Register.vue'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/admin',
       name: 'admin',
       component: Dashboard
+  },
+  {
+      path: '/register',
+      name: 'register',
+      component: Register
   }
   ]
 })
